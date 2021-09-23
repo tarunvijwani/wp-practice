@@ -69,7 +69,7 @@ function wp_post_master_markup( $catgeory_id = null )
       
       }
       $args=array(
-      'posts_per_page' => 5,
+      'posts_per_page' => 10,
       $taxonomy => $catgeory_id,
       );
 
